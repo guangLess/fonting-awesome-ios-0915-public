@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39CA69C73E5E7F9B86027D2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E757BB06DBF464EFABD06FB9 /* libPods.a */; };
+		623B215A1BDBE74600495B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B21591BDBE74600495B5C /* main.m */; };
+		623B215D1BDBE74600495B5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B215C1BDBE74600495B5C /* AppDelegate.m */; };
+		623B21601BDBE74600495B5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B215F1BDBE74600495B5C /* ViewController.m */; };
+		623B21631BDBE74600495B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623B21611BDBE74600495B5C /* Main.storyboard */; };
+		623B21651BDBE74600495B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623B21641BDBE74600495B5C /* Assets.xcassets */; };
+		623B21681BDBE74600495B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623B21661BDBE74600495B5C /* LaunchScreen.storyboard */; };
+		623B21731BDBE74600495B5C /* FISFonting_awesome_ios_0915Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B21721BDBE74600495B5C /* FISFonting_awesome_ios_0915Tests.m */; };
+		623B217E1BDBE74600495B5C /* FISFonting_awesome_ios_0915UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 623B217D1BDBE74600495B5C /* FISFonting_awesome_ios_0915UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		623B216F1BDBE74600495B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 623B214D1BDBE74600495B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623B21541BDBE74600495B5C;
+			remoteInfo = "FISFonting-awesome-ios-0915";
+		};
+		623B217A1BDBE74600495B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 623B214D1BDBE74600495B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623B21541BDBE74600495B5C;
+			remoteInfo = "FISFonting-awesome-ios-0915";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F6C70E10A87DB2C0E1BBF0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		34DC6B96138649ED499F2CC2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		623B21551BDBE74600495B5C /* FISFonting-awesome-ios-0915.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FISFonting-awesome-ios-0915.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623B21591BDBE74600495B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		623B215B1BDBE74600495B5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		623B215C1BDBE74600495B5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		623B215E1BDBE74600495B5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		623B215F1BDBE74600495B5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		623B21621BDBE74600495B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		623B21641BDBE74600495B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623B21671BDBE74600495B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		623B21691BDBE74600495B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623B216E1BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FISFonting-awesome-ios-0915Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623B21721BDBE74600495B5C /* FISFonting_awesome_ios_0915Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISFonting_awesome_ios_0915Tests.m; sourceTree = "<group>"; };
+		623B21741BDBE74600495B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623B21791BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FISFonting-awesome-ios-0915UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623B217D1BDBE74600495B5C /* FISFonting_awesome_ios_0915UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISFonting_awesome_ios_0915UITests.m; sourceTree = "<group>"; };
+		623B217F1BDBE74600495B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E757BB06DBF464EFABD06FB9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		623B21521BDBE74600495B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CA69C73E5E7F9B86027D2A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B216B1BDBE74600495B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B21761BDBE74600495B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		623B214C1BDBE74600495B5C = {
+			isa = PBXGroup;
+			children = (
+				623B21571BDBE74600495B5C /* FISFonting-awesome-ios-0915 */,
+				623B21711BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests */,
+				623B217C1BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests */,
+				623B21561BDBE74600495B5C /* Products */,
+				9B0F9411921CC63EA65CDFFC /* Pods */,
+				79A88523B0D1FFDBFE95F785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		623B21561BDBE74600495B5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				623B21551BDBE74600495B5C /* FISFonting-awesome-ios-0915.app */,
+				623B216E1BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests.xctest */,
+				623B21791BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		623B21571BDBE74600495B5C /* FISFonting-awesome-ios-0915 */ = {
+			isa = PBXGroup;
+			children = (
+				623B215B1BDBE74600495B5C /* AppDelegate.h */,
+				623B215C1BDBE74600495B5C /* AppDelegate.m */,
+				623B215E1BDBE74600495B5C /* ViewController.h */,
+				623B215F1BDBE74600495B5C /* ViewController.m */,
+				623B21611BDBE74600495B5C /* Main.storyboard */,
+				623B21641BDBE74600495B5C /* Assets.xcassets */,
+				623B21661BDBE74600495B5C /* LaunchScreen.storyboard */,
+				623B21691BDBE74600495B5C /* Info.plist */,
+				623B21581BDBE74600495B5C /* Supporting Files */,
+			);
+			path = "FISFonting-awesome-ios-0915";
+			sourceTree = "<group>";
+		};
+		623B21581BDBE74600495B5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				623B21591BDBE74600495B5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		623B21711BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests */ = {
+			isa = PBXGroup;
+			children = (
+				623B21721BDBE74600495B5C /* FISFonting_awesome_ios_0915Tests.m */,
+				623B21741BDBE74600495B5C /* Info.plist */,
+			);
+			path = "FISFonting-awesome-ios-0915Tests";
+			sourceTree = "<group>";
+		};
+		623B217C1BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests */ = {
+			isa = PBXGroup;
+			children = (
+				623B217D1BDBE74600495B5C /* FISFonting_awesome_ios_0915UITests.m */,
+				623B217F1BDBE74600495B5C /* Info.plist */,
+			);
+			path = "FISFonting-awesome-ios-0915UITests";
+			sourceTree = "<group>";
+		};
+		79A88523B0D1FFDBFE95F785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E757BB06DBF464EFABD06FB9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0F9411921CC63EA65CDFFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23F6C70E10A87DB2C0E1BBF0 /* Pods.debug.xcconfig */,
+				34DC6B96138649ED499F2CC2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		623B21541BDBE74600495B5C /* FISFonting-awesome-ios-0915 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623B21821BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915" */;
+			buildPhases = (
+				EF5B22F8EE64407F39C2AE88 /* Check Pods Manifest.lock */,
+				623B21511BDBE74600495B5C /* Sources */,
+				623B21521BDBE74600495B5C /* Frameworks */,
+				623B21531BDBE74600495B5C /* Resources */,
+				68097C457448E6BDB60658B3 /* Embed Pods Frameworks */,
+				DA9064C435D07A936D0D95AA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FISFonting-awesome-ios-0915";
+			productName = "FISFonting-awesome-ios-0915";
+			productReference = 623B21551BDBE74600495B5C /* FISFonting-awesome-ios-0915.app */;
+			productType = "com.apple.product-type.application";
+		};
+		623B216D1BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623B21851BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915Tests" */;
+			buildPhases = (
+				623B216A1BDBE74600495B5C /* Sources */,
+				623B216B1BDBE74600495B5C /* Frameworks */,
+				623B216C1BDBE74600495B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623B21701BDBE74600495B5C /* PBXTargetDependency */,
+			);
+			name = "FISFonting-awesome-ios-0915Tests";
+			productName = "FISFonting-awesome-ios-0915Tests";
+			productReference = 623B216E1BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		623B21781BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623B21881BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915UITests" */;
+			buildPhases = (
+				623B21751BDBE74600495B5C /* Sources */,
+				623B21761BDBE74600495B5C /* Frameworks */,
+				623B21771BDBE74600495B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623B217B1BDBE74600495B5C /* PBXTargetDependency */,
+			);
+			name = "FISFonting-awesome-ios-0915UITests";
+			productName = "FISFonting-awesome-ios-0915UITests";
+			productReference = 623B21791BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		623B214D1BDBE74600495B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Guang;
+				TargetAttributes = {
+					623B21541BDBE74600495B5C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					623B216D1BDBE74600495B5C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 623B21541BDBE74600495B5C;
+					};
+					623B21781BDBE74600495B5C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 623B21541BDBE74600495B5C;
+					};
+				};
+			};
+			buildConfigurationList = 623B21501BDBE74600495B5C /* Build configuration list for PBXProject "FISFonting-awesome-ios-0915" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 623B214C1BDBE74600495B5C;
+			productRefGroup = 623B21561BDBE74600495B5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				623B21541BDBE74600495B5C /* FISFonting-awesome-ios-0915 */,
+				623B216D1BDBE74600495B5C /* FISFonting-awesome-ios-0915Tests */,
+				623B21781BDBE74600495B5C /* FISFonting-awesome-ios-0915UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		623B21531BDBE74600495B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623B21681BDBE74600495B5C /* LaunchScreen.storyboard in Resources */,
+				623B21651BDBE74600495B5C /* Assets.xcassets in Resources */,
+				623B21631BDBE74600495B5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B216C1BDBE74600495B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B21771BDBE74600495B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68097C457448E6BDB60658B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9064C435D07A936D0D95AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5B22F8EE64407F39C2AE88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		623B21511BDBE74600495B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623B21601BDBE74600495B5C /* ViewController.m in Sources */,
+				623B215D1BDBE74600495B5C /* AppDelegate.m in Sources */,
+				623B215A1BDBE74600495B5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B216A1BDBE74600495B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623B21731BDBE74600495B5C /* FISFonting_awesome_ios_0915Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623B21751BDBE74600495B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623B217E1BDBE74600495B5C /* FISFonting_awesome_ios_0915UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		623B21701BDBE74600495B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623B21541BDBE74600495B5C /* FISFonting-awesome-ios-0915 */;
+			targetProxy = 623B216F1BDBE74600495B5C /* PBXContainerItemProxy */;
+		};
+		623B217B1BDBE74600495B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623B21541BDBE74600495B5C /* FISFonting-awesome-ios-0915 */;
+			targetProxy = 623B217A1BDBE74600495B5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		623B21611BDBE74600495B5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623B21621BDBE74600495B5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		623B21661BDBE74600495B5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				623B21671BDBE74600495B5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		623B21801BDBE74600495B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		623B21811BDBE74600495B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623B21831BDBE74600495B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F6C70E10A87DB2C0E1BBF0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		623B21841BDBE74600495B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DC6B96138649ED499F2CC2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		623B21861BDBE74600495B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISFonting-awesome-ios-0915.app/FISFonting-awesome-ios-0915";
+			};
+			name = Debug;
+		};
+		623B21871BDBE74600495B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISFonting-awesome-ios-0915.app/FISFonting-awesome-ios-0915";
+			};
+			name = Release;
+		};
+		623B21891BDBE74600495B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FISFonting-awesome-ios-0915";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		623B218A1BDBE74600495B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FISFonting-awesome-ios-0915UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waterBB.FISFonting-awesome-ios-0915UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FISFonting-awesome-ios-0915";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		623B21501BDBE74600495B5C /* Build configuration list for PBXProject "FISFonting-awesome-ios-0915" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623B21801BDBE74600495B5C /* Debug */,
+				623B21811BDBE74600495B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623B21821BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623B21831BDBE74600495B5C /* Debug */,
+				623B21841BDBE74600495B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623B21851BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623B21861BDBE74600495B5C /* Debug */,
+				623B21871BDBE74600495B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623B21881BDBE74600495B5C /* Build configuration list for PBXNativeTarget "FISFonting-awesome-ios-0915UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623B21891BDBE74600495B5C /* Debug */,
+				623B218A1BDBE74600495B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 623B214D1BDBE74600495B5C /* Project object */;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="kV5-BD-gFZ">
+                                <rect key="frame" x="57" y="209" width="271" height="227"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paU-EA-HU9">
+                                        <rect key="frame" x="0.0" y="0.0" width="271" height="88.5"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.99400529449999997" blue="0.45113310880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="pressMePlz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCq-Se-wmQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfb-I1-sZq">
+                                        <rect key="frame" x="0.0" y="138.5" width="271" height="88.5"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="0.99400529449999997" blue="0.45113310880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="62"/>
+                                        <state key="normal" title="?">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressMePlz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4M5-Qt-zmd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kV5-BD-gFZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="189" id="6Un-fG-AVW"/>
+                            <constraint firstItem="kV5-BD-gFZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="41" id="T9e-Zq-Art"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kV5-BD-gFZ" secondAttribute="bottom" constant="231" id="mys-Uy-94J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kV5-BD-gFZ" secondAttribute="trailing" constant="31" id="zQt-tJ-eZd"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bikeButton" destination="nfb-I1-sZq" id="GrV-A4-vWh"/>
+                        <outlet property="pressMePlzButton" destination="paU-EA-HU9" id="lxR-9c-gMf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="364.5"/>
+        </scene>
+    </scenes>
+</document>
